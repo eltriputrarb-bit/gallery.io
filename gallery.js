@@ -12,8 +12,7 @@ document.getElementById('root').innerHTML = `
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
-    <link rel="stylesheet" href="css/style.hideen.ndbxjda.css">
-    <link rel="stylesheet" href="css/gallery.hideNKDNEMS.css">
+    <link rel="stylesheet" href="css/gallery.NKDNEMS.css">
 </head>
 <body>
     
@@ -30,6 +29,18 @@ document.getElementById('root').innerHTML = `
     </div>
 </div>
 
+<ul class="cubes">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
     <nav class="container-navbar">
         <div class="nav-left">
             <a href="index.html" class="logo-link">
@@ -40,9 +51,10 @@ document.getElementById('root').innerHTML = `
 
         <div class="nav-right">
             <ul class="ul-navbar" id="nav-links">
-                <li><a href="index.html" class="menu-item-btn btn-gahar"><i class="fas fa-home"></i> HOME</a></li>
-                <li class="mobile-only"><a href="gallery.html" class="menu-item-btn active-btn btn-gahar"><i class="fas fa-images"></i> GALLERY</a></li>
-                <li><a href="proyek.html" class="menu-item-btn btn-gahar"><i class="fas fa-user"></i> PUBLIC PROFILE</a></li>
+                <li><a href="./index" class="menu-item-btn btn-gahar"><i class="fas fa-home"></i> HOME</a></li>
+                <li class="mobile-only"><a href="./gallery" class="menu-item-btn active-btn btn-gahar"><i class="fas fa-images"></i> GALLERY</a></li>
+                <li><a href="./proyek" class="menu-item-btn btn-gahar"><i class="fas fa-user"></i> PUBLIC PROFILE</a></li>
+                <li><a href="./error" class="menu-item-btn btn-gahar"><i class="fas fa-exclamation-triangle"></i>???</a></li>
             </ul>
             
             <div class="menu-toggle" id="mobile-menu">
